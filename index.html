@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <title>PROGUITAR</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon1.png">
+</head>
+
+<body class="body">
+  <header class="background">
+    <ul class="nev">
+      <div class="membership">
+        <li><a href="signup/signup.html" id="login">SIGN UP</a></li>
+        <li><a href="login/login.html" id="sign">LOGIN</a></li>
+      </div>
+      <li class="abtnev"><a href="#">CONTACT US</a></li>
+      <li class="abtnev"><a href="#">FEEDBACK</a></li>
+      <li class="abtnev"><a href="shop/shop.html">SHOP</a></li>
+      <li class="abtnev"><a href="songs/songs.html">LEARN</a></li>
+      <li class="abtnev"><a href="#" id="hm">HOME</a></li>
+      <a href="#"><img src="images/logobgggg.png" alt="" class="logo"></a>
+    </ul>
+  </header>
+
+  <header class="background-2">
+    <ul class="nev nev-resp" id="nev-resp">
+      <a href="#" class="logo-cntr"><img src="images/logobgggg.png" alt="" class="logo"></a>
+      <div class="hamburger" onclick="hideshow()">
+        <img src="images/hamburger.jpg" class="hamburger-img">
+      </div>
+      <div class="navblock visibality" id="visibality">
+        <li class="abtnev"><a href="home.html" id="hm">HOME</a></li>
+        <li class="abtnev"><a href="songs/songs.html">LEARN</a></li>
+        <li class="abtnev"><a href="shop/shop.html">SHOP</a></li>
+        <li class="abtnev"><a href="#">FEEDBACK</a></li>
+        <li class="abtnev"><a href="#">CONTACT US</a></li>
+        <div class="membership">
+          <li><a href="login/login.html" id="sign">LOGIN</a></li>
+          <li><a href="signup/signup.html" id="login">SIGN UP</a></li>
+        </div>
+      </div>
+    </ul>
+  </header>
+
+  <div class="container">
+    <section class="row section-1" id="sect-1">
+      <div class="col-6" id="s-1col-1">
+        <img src="images/animated girl.png" class="section-1-img">
+      </div>
+      <div class="col-6" id="s-1col-2">
+        <p>
+        <h1 class="play">Looking For A Place To Learn Guitar?</h1>
+        </p>
+        <ul class="learn">
+          <li><a href="songs/songs.html">Learn Basic Chords</a></li>
+          <li><a href="https://www.youtube.com/watch?v=BBz-Jyr23M4" target="_blank">Watch Tutorial</a></li>
+        </ul>
+      </div>
+    </section>
+    <hr class="divider">
+    <section class="row section-2" id="sect-2">
+      <div class="col" id="s-2col-1">
+        <h1 class="have">Don't Have a Guitar?</h1>
+        <ul class="buy">
+          <li><a href="shop/shop.html">Buy Now</a></li>
+        </ul>
+      </div>
+      <div class="col" id="s-2col-2">
+        <img src="images/girl with guitar without back.png" class="section-2-img">
+      </div>
+    </section>
+    <hr class="divider">
+    <section class="row section-3" id="sect-3">
+      <div class="col" id="s-3col-1">
+        <img src="images/computer2.jpg" class="section-3-img">
+      </div>
+      <div class="col" id="s-3col-2">
+        <div class="homeform">
+          <p>
+          <h1>One Step Away From Learning Guitar</h1>
+          </p>
+          <form>
+            <!--User name-->
+            <div class="form-outline mb-4">
+              <input type="text" id="form1Example13" class="form-control form-control-lg"
+                placeholder="User Name" />
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form1Example13" class="form-control form-control-lg"
+                placeholder="Email address" />
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form1Example23" class="form-control form-control-lg"
+                placeholder="Password" />
+            </div>
+
+            <!-- Conform Password -->
+            <div class="form-outline mb-4">
+              <input type="password" id="form1Example23" class="form-control form-control-lg"
+                placeholder="Conform Password" />
+            </div>
+
+            <div id="parent">
+
+              <!-- Phone Number -->
+              <div class="form-outline mb-4 phonenumber">
+                <input type="text" id="form1Example23" class="form-control form-control-lg "
+                  placeholder="Enter your Number" />
+              </div>
+
+              <!-- Gender -->
+              <div class="gender">
+                <select class="form-select gender bheight" aria-label="Default select example">
+                  <option selected>Gender</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                  <option value="3">Others</option>
+                </select>
+              </div>
+            </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" id="sub">Sign Up</button>
+              <div class="already-hv-acc">
+                <a href="login/login.html" class="hvaccount">Already have an Account</a>
+              </div>
+
+              <hr class="solid ldivider">
+              <p class="divideror">OR</p>
+              <hr class="solid rdivider">
+              <ul class="google">
+                <li class="googlefirst"><a class="btn btn-primary btn-lg btn-block"
+                    style="background-color: #3b5998" href="#!" role="button">
+                    <i class="fab fa-facebook-f me-2"></i>Sign up with Facebook</a>
+                </li>
+
+                <li class="googlesecond"><a class="btn btn-primary btn-lg btn-block googlethird"
+                    style="background-color: #55acee" href="#!" role="button">
+                    <i class="fab fa-twitter me-2"></i>Sign up with Google</a>
+                </li>
+              </ul>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <hr class="divider">
+    <section class="row section-4" id="sect-4">
+      <div class="col" id="s-4col-1">
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#why_us" aria-expanded="false" aria-controls="why_us">
+            WHY US
+          </button>
+        </p>
+        <div class="collapse" id="why_us">
+          <div class="card card-body">
+            This website is created for very beginners or someone with very little experience with guitar. Here we teach all the basic chords and what to be done by
+            beginners so that they learn the proper way of playing guitar. Here we also let the person learn their favouite songs by video lectures.
+            A person is sure to learn guitar if he/she follows all the instructions and practice all the chords.You will also get homeworks and personal instructor in
+            the Paid version, for each homework completed you will receave some coins which you can use to take rewards, this is an excellent motivation to learn and not
+            leave it midway.
+          </div>
+        </div>
+      </div>
+      <div class="col" id="s-4col-2">
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#about" aria-expanded="false" aria-controls="about">
+            ABOUT
+          </button>
+        </p>
+        <div class="collapse" id="about">
+          <div class="card card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-7">
+                    This website is created by Mudit Khandelwal.<br> Guitar is one of the hardest instument to learn, so I created this website to help the people who are
+                    willing to learn guitar by all their heart by providing all the necessay knowladge in the FREE version and there will be more features provided in
+                    the paid version like there will be a personal instructor for, you will get homeworks and access to more information.
+                  </div>
+                  <div class="col-5">
+                    <img src="images/me.jpeg" alt="my image" class="myimage">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+  </div>  
+  <script src="home/script.js"></script>
+</body>
+
+</html>

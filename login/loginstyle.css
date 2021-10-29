@@ -1,0 +1,138 @@
+.fillform{
+    margin-top: 130px;
+}
+#rightbox{
+    width: 510px;
+}
+#sub{
+    width: 490px;
+}
+.form-check-resp{
+    display: none;
+}
+#form-check-resp{
+    display: none;
+}
+.ldivider{
+    width: 210px;
+}
+.divideror{
+    margin-left: 229px;
+    margin-top: -30px;
+}
+.rdivider{
+    width: 210px;
+    margin-left: 273px;
+    margin-top: -25px;
+}
+.google{
+    list-style-type:none;
+    padding-left: 10px;
+    width: 550px;
+    margin-left: -10px;
+}
+.google li{
+    display: inline;
+    
+}
+.google a{
+    padding: 10px 15px;
+}
+.homebutton{
+    border: 1px black solid;
+    border-radius: 5px;
+    position:absolute;
+    top: 10px;
+    right: 20px;
+}
+.goback{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #0d6efd;
+    color: white;
+}
+#backimg{
+    width: 20px;
+    height: auto;
+    margin-top: -4px;
+}
+@media screen and (max-width:1200px){
+    #myrow{
+        justify-content: center;
+    }
+    #leftbox{
+        width: 70%;
+    }
+    #rightbox h1{
+        text-align: center;
+    }
+    #sub{
+        width: 100%;
+    }
+    .ldivider{
+        width: 45%;
+    }
+    .rdivider{
+        width: 45%;
+        position: absolute;
+        right: 0px;
+    }
+    .divideror{
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        position: relative;
+        height: 100%;
+        margin-bottom: 70px;
+    }
+    #cwf{
+        display: flex;
+        width: 45%;
+        position: absolute;
+        left: 0px;
+        padding: 5px;
+    }
+    #cwg{
+        display: flex;
+        width: 45%;
+        position: absolute;
+        right: 0px;
+        padding: 5px;
+    }
+    .form-check-resp{
+        display: block;
+    }
+    #form-check-resp{
+        display: block;
+    }
+    #form-check-nonresp{
+        display: none;
+    }
+    .form{
+        position: relative;
+    }
+    .form-check{
+        text-align: center;
+    }
+    .creat-account{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .creat-account1{
+        margin-right: 15%;
+    }
+}
+@media screen and (max-width:992px){
+    #leftbox{
+        width: 85%;
+    }
+}

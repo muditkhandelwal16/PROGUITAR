@@ -1,0 +1,140 @@
+.fillform{
+    margin-top: 100px;
+}
+body{
+    /* background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url(../images/guitar-musical-instrument-leisure-activities-electric-guitar.jpg); */
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ; */
+    background-repeat: no-repeat;
+    Background-attachment:fixed;
+
+    background-size: cover;
+}
+
+.phoneimg{
+    width: 100%;
+}
+.homebutton{
+    border: 1px black solid;
+    border-radius: 5px;
+    position:absolute;
+    top: 10px;
+    right: 20px;
+}
+#rightbox{
+    width: 510px;
+}
+#rightbox h1{
+    text-align: center;
+}
+.parent{
+    position: relative;
+}
+.phonenumber{
+    width: 240px;
+}
+.gender{
+    width: 240px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 487px;
+}
+.accound{
+    text-align: center;
+}
+.bheight{
+    height: 48px;
+}
+.divider{
+    position: relative;
+}
+.ldivider{
+    width: 46%;
+    position: absolute;
+    left: 0px;
+}
+.divideror{
+   text-align: center;
+   padding-top: 3px;
+}
+.rdivider{
+    width: 46%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.google{
+    list-style-type:none;
+    padding-left: 10px;
+    width: 550px;
+    margin-left: -10px;
+}
+.google li{
+    display: inline; 
+    margin-right: 15px;
+}
+.google a{
+    padding: 10px 15px;
+}
+.goback{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #0d6efd;
+    color: white;
+}
+#backimg{
+    width: 20px;
+    height: auto;
+    margin-top: -4px;
+}
+@media screen and (max-width:1200px){
+     #imgbox{
+         width: 75%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     #rightbox{
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .phonenumber{
+         width: 49%;
+     }
+     .gender{
+         width: 49%;
+     }
+     .ldivider{
+         width: 45%;
+     }
+     .rdivider{
+         width: 45%;
+     }
+     .google{
+        width: 100%;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 70px;
+     }
+     #googlefirst{
+        width: 45%;
+        position: absolute;
+        left: 0px;
+     }
+     #googlesecond{
+        width: 45%;
+        position: absolute;
+        right: 0px;
+     }
+     #sub{
+        width: 100%;
+     }
+}

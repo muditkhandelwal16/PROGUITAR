@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+    <title>ProGuitar</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon1.png">
+  </head>
+
+  <body>
+    <header class="background">
+      <ul class="nev nevbar-resp" id="nevbar-resp">
+        <div class="hamburger" onclick="hideshow()">
+          <img src="../images/hamburger.jpg" class="hamburger-img">
+        </div>
+        <div class="nev-resp visibality" id="visibality">
+          <div class="member">
+            <li><a href="../signup/signup.html" id="login">SIGN UP</a></li>
+            <li><a href="../login/login.html" id="sign">LOGIN</a></li>
+          </div>  
+          <li class="abtnev"><a href="#">FEEDBACK</a></li>
+          <li class="abtnev"><a href="#">CONTACT US</a></li>
+          <li class="abtnev"><a href="#" id="hm">SHOP</a></li>
+          <li class="abtnev"><a href="../songs/songs.html">LEARN</a></li>
+          <li class="abtnev"><a href="../index.html">HOME</a></li>
+        </div>
+        <a href="../index.html"><img src="../images/logobgggg.png" alt="" class="logo"></a>
+      </ul>
+    </header>
+
+    
+    <div onscroll="sticky()" id="filterdiv">
+      <button class="btn btn-light" id="filter" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <img src="../images/filter1.png" class="filterimg" >
+      </button>
+    </div>
+
+    <div class="filterbar">
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Select the category</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a class="nav-link" href="#classical">Classical</a>
+            <a class="nav-link" href="#acoustic">Acoustic</a>
+            <a class="nav-link" href="#electric">Electric</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#bass">Bass</a>
+            </nav>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" class="parent">
+      <div class="container" id="wholebody">
+        <div class="row firstrow" id="classical">
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/classical1.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p>Classical Guitar with Soft Nylon Strings by Hola! Music, Junior 3/4 Size 36 Inch Model HG-36GLS,
+                  Natural Gloss Finish...</p>
+                <hr class="divid">
+                <h6>₹16,739</h6>
+                <a href="https://www.ubuy.co.in/catalog/product/view/id/8384897/s/classical-guitar-with-soft-nylon-strings-by-hola-music-junior-34-size-36-inch-model-hg-36gls-natural-gloss-finish-free-padded-gig-bag-included"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Ubay
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/classical2.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Belear M-40 Orange Classical Guitar With Bag and Picks Classical Guitar Spruce
+                  Rosewood Right Hand Orientation (Orange)</p>
+                <hr class="divid">
+                <h6>₹4,599</h6>
+                <a href="https://www.flipkart.com/belear-m-40-orange-classical-guitar-bag-picks-spruce-rosewood-right-hand-orientation/p/itm7200dc008a191?pid=ACGGFYYH6TJFBHGW&lid=LSTACGGFYYH6TJFBHGWPJGLC5&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/classical3.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Valencia VC201 1/4 Size 6-Strings(Nylon) Classical Guitar colour-dark green </p>
+                <hr id="divid">
+                <h6>₹4,097</h6>
+                <a href="https://www.bajaao.com/products/valencia-vc201-1-4-size-6-strings-classical-guitar?variant=37647838675123"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/classical5.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">ADM Beginner Acoustic Classical Guitar 30 Inch Nylon Strings Wooden Guitar Bundle Kit
+                  for...</p>
+                <hr class="divid">
+                <h6>₹6,472</h6>
+                <a href="https://www.ubuy.co.in/catalog/product/view/id/38152713/s/adm-beginner-acoustic-classical-guitar-30-inch-nylon-strings-wooden-guitar-bundle-kit-for-kids-students-with-carrying-bag-accessories-black"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Ubay
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row firstrow" id="acoustic">
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/download (2).webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p>Henrix 38C Cutaway Acoustic Guitar with Dual Action Truss Rod, Gigbag, Picks & String Set...</p>
+                <hr class="divid">
+                <h6>₹2,699</h6>
+                <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiUpq7U2t3yAhWlnUsFHeMpAxgYABAdGgJzZg&sig=AOD64_0fFFOaiT1058bYiTUsKt0XB81J1A&ctype=5&q=&ved=0ahUKEwiZp6fU2t3yAhWEDd4KHbb-CtYQww8Ilwk&adurl="
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/download (3).webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Flipkart Smartbuy 38c Classic Black, 38 Acoustic Guitar Linden Wood Plastic Right
+                  Hand...</p>
+                <hr class="divid">
+                <h6>₹2,695</h6>
+                <a href="https://www.flipkart.com/flipkart-smartbuy-38c-classic-black-38-acoustic-guitar-linden-wood-plastic-right-hand-orientation/p/itmcaa0c6b621930?pid=ACGFK7HHFHHAAEUV&lid=LSTACGFK7HHFHHAAEUVLFBMMG&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/download.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Juarez 038C Acoustic Guitar Linden Wood, Ebony Ebony Right Hand Orientation (Black)
+                </p>
+                <hr class="divid">
+                <h6>₹1,900</h6>
+                <a href="https://www.flipkart.com/juarez-038c-acoustic-guitar-linden-wood-ebony-right-hand-orientation/p/itm02e145ad7cb84?pid=ACGEKHFAUYJKQNGY&lid=LSTACGEKHFAUYJKQNGY4VI4Q7&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/sellingguitar.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Yamaha F310, 6-String Acoustic Steel Guitar, Right Handed, Natural, without Case</p>
+                <hr class="divid">
+                <h6>₹9,490</h6>
+                <a href="https://www.bajaao.com/products/yamaha-f310-acoustic-guitar?variant=6657037443" target="_blank"
+                  class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row firstrow">
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/download (1).webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p>Juarez JRZ38C/MAH Acoustic Guitar Mahogany, 38 Inch Cutaway, Right Handed...</p>
+                <hr class="divid">
+                <h6>₹2,290</h6>
+                <a href="https://www.flipkart.com/juarez-jrz38c-mah-acoustic-guitar-mahogany-38-inch-cutaway-right-handed-linden-wood-ebony-hand-orientation/p/itmc5a0d73304792?pid=ACGF6WAFA7HRXXTE&lid=LSTACGF6WAFA7HRXXTED14DOO&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/blueguitar.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">intern INT-38C-BL-L Acoustic Guitar Linden Wood Linden Wood Right Hand Orientation
+                </p>
+                <hr class="divid">
+                <h6>₹2,390</h6>
+                <a href="https://www.flipkart.com/intern-int-38c-bl-l-acoustic-guitar-linden-wood-right-hand-orientation/p/itm39663f45f4b82?pid=ACGGFBUYPZACGQPE&lid=LSTACGGFBUYPZACGQPENBQYDU&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/shopping (1).webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">JIXING JXNG-BLK-C1 Acoustic Guitar Linden Wood Maple Right Hand Orientation (Black)
+                </p>
+                <hr class="divid">
+                <h6>₹2,349</h6>
+                <a href="https://www.flipkart.com/jixing-jxng-blk-c1-acoustic-guitar-linden-wood-maple-right-hand-orientation/p/itm7d765ca287f10?pid=ACGFF2TAUQBXE7JT&lid=LSTACGFF2TAUQBXE7JT7V6XCZ&marketplace=FLIPKART&cmpid=content_acoustic-guitar_8965229628_gmc"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At flipkart
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/41C00b9w-iS.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Yamaha F310, 6-String Acoustic Steel Guitar, Right Handed, Natural, without Case</p>
+                <hr class="divid">
+                <h6>₹10,699</h6>
+                <a href="https://www.amazon.in/Cort-Acoustic-AD850SE-Handed-Guitar/dp/B08H1BJ9M3/ref=asc_df_B08H1BJ9M3/?tag=googleshopdes-21&linkCode=df0&hvadid=396987205362&hvpos=&hvnetw=g&hvrand=1545841554800855537&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9303882&hvtargid=pla-947601999489&psc=1&ext_vrnc=hi"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At amazon.in
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row firstrow" id="electric">
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/electric3.webp" class="card-img-top electricg " alt="...">
+              <div class="card-body">
+                <p>Vault ST1 Strat Style 6 String Electric Guitar - Rosewood</p>
+                <hr class="divid">
+                <h6>₹6,599</h6>
+                <a href="https://www.bajaao.com/products/vault-st1rw-strat-style-electric-guitar?variant=34789525225633"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/electric1.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Vault ST1 Strat Style 6 String Electric Guitar - Rosewood</p>
+                <hr class="divid">
+                <h6>₹6,599</h6>
+                <a href="https://www.bajaao.com/products/vault-st1rw-strat-style-electric-guitar?variant=34789525258401"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/electric4.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Vault ST1RW Electric Guitar Basic Bundle</p>
+                <hr class="divid">
+                <h6>₹2,349</h6>
+                <a href="https://www.bajaao.com/products/vault-st1rw-strat-style-electric-guitar-basic-bundle?variant=12667010383944"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/electric2.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Jackson JS32 King V Electric Guitar - Black with White Bevels</p>
+                <hr class="divid">
+                <h6>₹34,897</h6>
+                <a href="https://www.bajaao.com/products/jackson-js32-king-v-electric-guitar-black-with-white-bevels-amaranth-fretboard?variant=29430509404232"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row firstrow" id="bass">
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/bass guitar 2.webp" class="card-img-top electricg " alt="...">
+              <div class="card-body">
+                <p>Full Size 4 String Professional Electric Bass Guitar Black...</p>
+                <hr class="divid">
+                <h6>₹9,499+tax</h6>
+                <a href="https://bestampcovers.com/products/full-size-4-string-professional-electric-bass-guitar-black-with-bag-guitar-strap-and-guitar-cable-1?variant=32926936596566&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Custom Amp
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/bass1.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p>YAMAHA TRBX174 ELECTRIC BASS GUITAR - BLACK</p>
+                <hr class="divid">
+                <h6>₹17,500</h6>
+                <a href="https://rajmusical.com/yamaha-trbx174-electric-bass-guitar-black.html" target="_blank"
+                  class="btn btn-primary">Buy Now</a>
+                At Raj Musicals
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/bass3.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Glarry Electric Bass Guitar Full Size 4 String Rosewood...</p>
+                <hr class="divid">
+                <h6>₹10,016</h6>
+                <a href="https://www.ubuy.co.in/catalog/product/view/id/18026275/s/glarry-electric-bass-guitar-full-size-4-string-rosewood-basswood-fire-style-exquisite-burning-bassburly-wood"
+                  target="_blank" class="btn btn-primary">Buy Now</a>
+                At Ubay
+              </div>
+            </div>
+          </div>
+          <div class="col" id="colomn">
+            <div class="card shape" style="width: 17rem;">
+              <img src="../images/guitar/bass4.webp" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text">Cort Action PJ Bass Guitar with body black</p>
+                <hr class="divid">
+                <h6>₹14,512</h6>
+                <a href="https://www.bajaao.com/products/cort-action-pj-bass-guitar?variant=3147930828824" target="_blank"
+                  class="btn btn-primary">Buy Now</a>
+                At Bajaao.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" style="margin-left:15px; margin-bottom :15px; border:1px solid black; border-radius: 5px;">
+      <a class="nav-link" href="#wholebody">Go to top</a>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

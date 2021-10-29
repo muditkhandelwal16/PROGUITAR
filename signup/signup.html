@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <title>Sign Up</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon1.png">
+  </head>
+  <body>
+    <button type="button" class="btn btn-primary btn-lg btn-block homebutton" onclick="document.location='../index.html'">HOME</button>
+    <section class="fillform">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6" id="imgbox">
+            <img src="../images/Movil-Pagina-v2.png" class="img-fluid phoneimg" alt="Phone image">
+          </div>
+          <div class="col-xl-6" id="rightbox">
+            <h1>Sign Up To ProGuitar</h1>
+            <form>
+              <!--User name-->
+              <div class="form-outline mb-4">
+                <input type="text" id="form1Example13" class="form-control form-control-lg" placeholder="User Name" />
+              </div>
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form1Example13" class="form-control form-control-lg" placeholder="Email address"/>
+                <!-- <label class="form-label" for="form1Example13">Email address</label> -->
+              </div>
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Password"/>
+                <!-- <lbel class="form-label" for="form1Example23">Password</label> -->
+              </div>
+              <div class="form-outline mb-4">
+                <input type="password" id="form1Example23" class="form-control form-control-lg" placeholder="Conform Password"/>
+                <!-- <lbel class="form-label" for="form1Example23">Password</label> -->
+              </div>
+              <div class="parent">
+
+                <div class="form-outline mb-4 phonenumber">
+                  <input type="text" id="form1Example23" class="form-control form-control-lg " placeholder="Enter your Number"/>
+                </div>
+                <div class="gender">
+                  <select class="form-select gender bheight" aria-label="Default select example">
+                    <option selected>Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Others</option>
+                  </select>
+                </div>
+              
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" id="sub">Sign Up</button>
+              <div class="accound">
+                <a href="../login/login.html">
+                  Already have an Account
+                </a>
+              </div>
+              <div class="divider">
+                <hr class="solid ldivider" >
+                <p class="divideror">OR</p>
+                <hr class="solid rdivider" >
+              </div>
+              
+              <ul class="google">
+                <li>
+                  <a id="googlefirst" class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!" role="button">
+                  <i class="fab fa-facebook-f me-2"></i>Sign up with Facebook</a></li>
+
+                <li>
+                  <a id="googlesecond" class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="#!" role="button">
+                  <i class="fab fa-twitter me-2"></i>Sign up with Google</a></li>
+              </ul>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <button onclick="goBack()" class="goback"><img src="../images/back4.png" id="backimg"> Go Back</button>
+
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+  </body>
+</html>
