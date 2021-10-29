@@ -96,7 +96,7 @@ body{
 @media screen and (max-width:1000px) {
     .nev{
         transition: all 0.4s ease-out;
-        height: 340px;
+        height: 290px;
     }
     .nev-resp{
         display: flex;
