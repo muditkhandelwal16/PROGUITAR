@@ -4,3 +4,13 @@ function hideshow(){
     nevresp.classList.toggle("nevbar-resp");
     visibal.classList.toggle("visibality");
 }
+window.onscroll = function(){stickfilter()};
+let filter = document.getElementById('filterdiv');
+let filterheight = filter.offsetTop;
+function stickfilter() {
+    if (window.pageYOffset >= filterheight) {
+      filter.classList.add("sticky")
+    } else {
+      filter.classList.remove("sticky");
+    }
+}

@@ -65,10 +65,7 @@ body{
     border:2px black solid;
     box-sizing: border-box;
 }
-/* #filterdiv{
-    width: 100px;
-    height: 100px;
-} */
+
 #filter{
     border: 1px solid white;
     border-radius: 5px;
@@ -99,16 +96,12 @@ body{
 #navfixed{
     position: fixed;
 }
-.firstrow{
-    margin-bottom: 30px;
-}
-.parent{
-}
 #wholebody{
     margin-top: 16px;
 }
 #colomn{
     width: 250px;
+    margin-bottom: 30px;
 }
 @media screen and (max-width:1000px) {
     .nev{
