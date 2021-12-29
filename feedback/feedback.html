@@ -32,7 +32,7 @@
               <li><a href="../signup/signup.html" id="login">SIGN UP</a></li>
               <li><a href="../login/login.html" id="sign">LOGIN</a></li>
             </div>
-            <li class="abtnev"><a href="#" id="hm">ABOUT</a></li>
+            <li class="abtnev"><a href="#" id="hm">FEEDBACK</a></li>
             <li class="abtnev"><a href="../shop/shop.html">SHOP</a></li>
             <li class="abtnev"><a href="../songs/songs.html">LEARN</a></li>
             <li class="abtnev"><a href="../index.html">HOME</a></li> 
@@ -40,7 +40,38 @@
           <a href="../index.html"><img src="../images/logobgggg.png" alt="" class="logo"></a>
         </ul>
     </header>
-
+    <!-- Name
+    email address
+    feedback
+    suggestions
+    send email of my response -->
+    <form class="form">
+      <h2 class="heading-2">GIVE YOUR FEEDBACK</h2>
+      <div class="formdiv">
+        <label for="exampleInputText1" class="form-label nameshift">Enter your Name</label>
+        <input type="text" class="form-control" id="exampleInputText1" placeholder="Name">
+      </div>
+      <div class="formdiv">
+        <label for="exampleInputEmail1" class="form-label nameshift">Enter your Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" >
+      </div>
+      <div class="formdiv">
+        <label for="exampleInputText1" class="form-label nameshift">Enter you issue/feedback</label>
+        <textarea class="form-control" aria-label="With textarea" placeholder="Issue/feedback"></textarea>
+      </div>
+      <div class="formdiv">
+        <label for="exampleInputText1" class="form-label nameshift">Give some suggestions</label>
+        <textarea class="form-control" aria-label="With textarea" placeholder="suggestions"></textarea>
+      </div>
+      <div class="formdiv">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1 nameshift">Send email of my response</label>
+      </div>
+      <div class="submit-btn">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    
     <script src="script.js"></script>
   </body>
 </html>

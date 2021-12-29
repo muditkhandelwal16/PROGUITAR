@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     Background-attachment:fixed;
     width: 100%;
-    height: 130vh;
+    height: 110vh;
     background-size: cover;
 }
 .logo{
@@ -63,4 +63,81 @@ body{
 #login:hover{
     border:2px black solid;
     box-sizing: border-box;
+}
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+.formdiv{
+    margin-bottom: 20px;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-2, .submit-btn{
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    .nev{
+        transition: all 0.4s ease-out;
+        height: 290px;
+    }
+    .nev-resp{
+        display: flex;
+        flex-direction: column-reverse;
+        /* margin-top:0px;
+        margin-bottom: 0px; */
+    }
+    .nev li{
+        display: flex;
+        justify-content: center;
+        margin: 7px 10px;
+    }
+    .member{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .logo{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width: 60px;
+    }
+    .hamburger-img{
+        width: 35px;
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        background: rgb(255, 255, 255);
+        padding:8px;
+        cursor: pointer;
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        border-radius: 5px;
+    }
+    .nevbar-resp{
+        height: 70px;
+    }
+    .visibality{
+        display: none;
+    }
+}
+@media screen and (max-width:630px){
+    .form{
+        width: 90%;
+    }
 }
